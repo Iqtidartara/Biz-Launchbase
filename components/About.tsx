@@ -9,11 +9,11 @@ const About = () => {
         <div className='w-full  md:w-1/2'>
           <Image src='/about.png' alt='trackbussiness' width={500} height={300} />
         </div>
-        <div className='w-full md:w-1/2'>
-          <div className="mb-4">
+        <div className='w-full md:w-1/2 '>
+          <div className="mb-4 ">
             <div className="flex items-center gap-2">
               <div className="w-8 h-0.5 bg-[#6D72F6]"></div>
-              <h3 className="text-[#6D72F6] font-extrabold text-sm leading-5 tracking-wider">
+              <h3 className="text-[#6D72F6] font-extrabold text-[15px] leading-5 tracking-wider uppercase">
                 Your Success, Our Blueprint
               </h3>
             </div>
@@ -21,21 +21,21 @@ const About = () => {
           <h1 className='text-4xl md:text-5xl font-extrabold leading-9 text-[#1C1C57] mb-4'>
             Fast-Track Your Business <br /> in a Week
           </h1>
-          <p className='text-[#73739A] text-lg md:text-xl font-medium leading-[2] mb-6'>
+          <p className='text-[#73739A] text-[18px] md:text-[18px] font-medium leading-[2] mb-6'>
             At BizLaunchBase, we break down barriers for you. Our streamlined process, guided document uploads, and expert team ensure quick registration for Stripe, PayPal, Wise, and more in just 7 days. Make your global market entry a reality!
           </p>
-          <div className='mb-6 leading-[1.75rem]'>
+          <div className='mb-6 leading-[2rem]'>
             <div className='flex items-center mb-2 '>
-              <Image src='/Tick.png' alt='check' width={25} height={25} />
-              <span className='ml-2 text-[#73739A]'>Navigate seamless US/UK registration</span>
+              <Image src='/Tick.png' alt='check' width={28} height={28} />
+              <span className='ml-2 text-[#1C1C57] font-medium text-[18px]'>Navigate seamless US/UK registration</span>
             </div>
             <div className='flex items-center mb-2'>
-              <Image src='/Tick.png' alt='check' width={25} height={25} />
-              <span className='ml-2 text-[#73739A]'>Unlock Stripe, PayPal, Wise, and more in 7 days</span>
+              <Image src='/Tick.png' alt='check' width={28} height={28} />
+              <span className='ml-2 text-[#1C1C57] font-medium text-[18px]'>Unlock Stripe, PayPal, Wise, and more in 7 days</span>
             </div>
             <div className='flex items-center'>
-              <Image src='/Tick.png' alt='check' width={25} height={25} />
-              <span className='ml-2 text-[#73739A]'>Simplified, user-friendly document upload</span>
+              <Image src='/Tick.png' alt='check' width={28} height={28} />
+              <span className='ml-2 text-[#1C1C57] font-medium text-[18px]'>Simplified, user-friendly document upload</span>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-2 pt-8">

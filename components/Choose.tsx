@@ -9,16 +9,16 @@ const Choose = () => {
         <div className="w-full md:w-1/2 ">
           <div className="mb-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-0.5 bg-[#6D72F6]"></div>
-              <h3 className="text-[#6D72F6] font-extrabold text-sm leading-5 tracking-wider">
+              <div className="w-9 h-0.5 bg-[#6D72F6]"></div>
+              <h3 className="text-[#6D72F6] font-extrabold text-[16px] leading-5 tracking-wider uppercase">
                 Transparency, Trust, Triumph
               </h3>
             </div>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-9 text-[#1C1C57] mb-4 md:mt-6">
+          <h1 className="text-[40px] md:text-5xl font-extrabold leading-9 text-[#1C1C57] mb-4 md:mt-6">
             Why Choose Us?
           </h1>
-          <p className="text-[#73739A] text-xl md:text-xl font-medium leading-[2] md:mt-6 mb-6">
+          <p className="text-[#73739A] text-[18px] md:text-[18px] font-medium leading-[2] md:mt-6 mb-6">
             In the entrepreneurial world, your choice of a partner is crucial.
             BizLaunchBase is your reliable companion, ensuring transparency,
             informed decisions, and effortless processes. We pave the way for
@@ -26,16 +26,16 @@ const Choose = () => {
           </p>
           <div className="mb-6 leading-[2rem]">
             <div className="flex items-center mb-2 ">
-              <Image src="/Tick.png" alt="check" width={25} height={25} />
-              <span className="ml-2 text-[#73739A]">Transparent Operations</span>
+              <Image src="/Tick.png" alt="check" width={28} height={28} />
+              <span className="ml-2 text-[#1C1C57] text-[18px] font-medium">Transparent Operations</span>
             </div>
             <div className="flex items-center mb-2">
-              <Image src="/Tick.png" alt="check" width={25} height={25} />
-              <span className="ml-2 text-[#73739A]">Informed Decision-Making</span>
+              <Image src="/Tick.png" alt="check" width={28} height={28} />
+              <span className="ml-2 text-[#1C1C57] text-[18px] font-medium">Informed Decision-Making</span>
             </div>
             <div className="flex items-center">
-              <Image src="/Tick.png" alt="check" width={25} height={25} />
-              <span className="ml-2 text-[#73739A]">Effortless Processes</span>
+              <Image src="/Tick.png" alt="check" width={28} height={28} />
+              <span className="ml-2 text-[#1C1C57] text-[18px] font-medium">Effortless Processes</span>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-2 pt-8">
