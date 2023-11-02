@@ -28,7 +28,7 @@ function BizLaunchBase() {
               
               <div className="flex  flex-col md:flex-row 
              items-start w-[348px] max-w-full justify-start gap-5 mt-9 self-start ">
-          <Button variant={'ghost'} className="bg-[#fff] text-[#6D72F6] rounded-xl py-4 md:py-6 text-lg md:text-[1rem]  hover:border-[#6D72F6] border ">
+          <Button className="bg-[#fff] text-[#6D72F6] rounded-xl py-4 md:py-6 text-lg md:text-[1rem]  hover:bg-blue-100 ">
             Get Started
           </Button>
           <Button
