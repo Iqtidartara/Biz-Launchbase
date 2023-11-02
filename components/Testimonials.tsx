@@ -13,7 +13,7 @@ const Testimonials = () => {
             <div className="bg-white w-full md:w-full lg:w-[540px] p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center gap-4 md:gap-8 shadow-xl rounded-[20px]">
               <div className="flex-col items-start gap-3">
                 <h2 className="text-[#1C1C57] text-[24px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
-                  “I&apos;ve never seen anything like it”
+                &apos;I&apos;ve never seen anything like it&apos;
                 </h2>
                 <p className="text-[#73739A] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4">
                   In just 7 days, BizLaunchBase made my business global-ready.
