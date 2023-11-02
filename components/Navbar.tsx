@@ -21,7 +21,7 @@ const Navbar = () => {
       <Popover className="container mx-auto flex items-start px-4 py-5 h-28 w-full md:max-w-7xl">
         <div className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             width={256}
             height={35}
             alt="logo"
