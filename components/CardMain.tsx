@@ -20,7 +20,7 @@ function BizLaunchBase() {
                 <h1 className="text-white text-[1.4rem] text-center sm:text-start md:text-[2.47081rem] font-[800] leading-[140%]">
                   Create your BizLaunchBase <br /> account today!
                 </h1>
-                <p className="text-violet-100 text-[1rem] md:text-[1.11188rem] font-[500] leading-[179.879%] mt-6 max-md:max-w-full">
+                <p className="text-violet-100 text-[.9rem] md:text-[1.11188rem] font-[500] leading-[179.879%] mt-6 max-md:max-w-full">
                   Seize the Future: Supercharge Your Business Journey by Creating Your BizLaunchBase Account Today! Join a Thriving Community and Elevate Your Success to New Heights.
                 </p>
               </div>

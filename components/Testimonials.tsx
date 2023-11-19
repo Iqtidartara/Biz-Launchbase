@@ -109,17 +109,7 @@ const Testimonials = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex items-center justify-center flex-col md:flex-row gap-4 md:gap-6 lg:gap-8 mt-8 md:mt-20">
-        <Button className="bg-[#fff] text-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] hover:bg-blue-100 w-full ">
-            Get Started
-          </Button>
-          <Button
-            variant={"ghost"}
-            className="text-[#000] border hover:border-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] w-full"
-          >
-            Book a demo
-          </Button>
-        </div>
+        
       </div>
     </main>
   );
