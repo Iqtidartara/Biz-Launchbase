@@ -15,6 +15,7 @@ export default function Home() {
     <Navbar/>
     <HomeSection />
     <SocialProof />
+    
     <About />
     <Choose/>
     <Services />

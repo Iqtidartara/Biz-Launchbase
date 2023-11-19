@@ -12,10 +12,10 @@ const Testimonials = () => {
             {/* Testimonial Card 1 */}
             <div className="bg-white w-full md:w-full lg:w-[540px] p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center gap-4 md:gap-8 shadow-xl rounded-[20px]">
               <div className="flex-col items-start gap-3">
-                <h2 className="text-[#1C1C57] text-[24px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
+                <h2 className="text-[#1C1C57] text-[20px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
                 &apos;I&apos;ve never seen anything like it&apos;
                 </h2>
-                <p className="text-[#73739A] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4">
+                <p className="text-[#73739A] text-[12px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4">
                   In just 7 days, BizLaunchBase made my business global-ready.
                   User-friendly and hassle-free, they turned promises into
                   reality. They&apos;re not just a service; they&apos;re
@@ -24,7 +24,7 @@ const Testimonials = () => {
                 <div className="flex gap-3 items-center md:-ml-4 lg:-ml-6 pt-4">
                   <Image src="/image(1).png" alt="Aara Carter" width={80} height={80} />
                   <div className="flex flex-col">
-                    <h5 className="text-[#1C1C57] text-[18px] md:text-[18px] lg:text-[18px] font-extrabold leading-[24px] md:leading-[24px] lg:leading-[24px]">
+                    <h5 className="text-[#1C1C57] text-[12px] md:text-[18px] lg:text-[18px] font-extrabold leading-[24px] md:leading-[24px] lg:leading-[24px]">
                       Aara Carter
                     </h5>
                     <p className="text-[#5F5F86] text-base md:text-md lg:text-lg font-medium leading-6 md:leading-7 lg:leading-1">
@@ -37,11 +37,11 @@ const Testimonials = () => {
 
             {/* Testimonial Card 2 */}
             <div className="bg-white w-full md:w-full lg:w-[540px] p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center gap-4 md:gap-8 shadow-xl rounded-[20px] mt-6 md:mt-0">
-              <div className="flex-col items-start gap-3">
-                <h2 className="text-[#1C1C57] text-[24px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
+              <div className="flex-col items-start gap-2">
+                <h2 className="text-[#1C1C57] text-[20px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
                 &apos;This is legit the bomb&apos;
                 </h2>
-                <p className="text-[#73739A] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4">
+                <p className="text-[#73739A] text-[12px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4">
                   BizLaunchBase is the best choice for global ambitions. Their
                   transparency and commitment ensured an effortless journey.
                   They&apos;re not just service providers; they&apos;re reliable
@@ -65,16 +65,16 @@ const Testimonials = () => {
           {/* Right side cards */}
           <div className="w-full md:w-1/2 space-y-4 md:space-y-6 lg:space-y-8 md:px-4 lg:px-8 justify-center mt-6 ">
             <div className="inline-flex flex-col items-start gap-4 pb-4 md:w-full lg:w-[450px]">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2">
                 <div className="w-6 h-0.5 bg-[#6D72F6]"></div>
-                <h3 className="text-[#6D72F6] font-extrabold text-[16px] leading-[18px] tracking-[0.96px] uppercase">
+                <h3 className="text-[#6D72F6] font-extrabold text-[12px] md:text-[16px] leading-[18px] tracking-[0.96px] uppercase">
                   Testimonials
                 </h3>
               </div>
-              <h1 className="text-[#1C1C57] text-[40px] md:text-[40px] lg:text-[40px] font-extrabold leading-[56px] md:leading-[56px] lg:leading-[56px]">
+              <h1 className="text-[#1C1C57] text-[20px] md:text-[40px] lg:text-[40px] font-extrabold md:leading-5 lg:leading-[56px]">
                 Don&apos;t take our word for it, take theirs
               </h1>
-              <p className="text-[#73739A] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px]">
+              <p className="text-[#73739A] text-[12px] md:text-[18px] lg:text-[18px] font-medium leading-[32px]">
                 Fans can&apos;t stop talking! Don&apos;t just take our word, let their
                 excitement convince you. Join the chorus of satisfied users today!
               </p>
@@ -83,10 +83,10 @@ const Testimonials = () => {
             {/* Testimonial Card 3 */}
             <div className="bg-white w-full md:w-full lg:w-[540px] p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center gap-4 md:gap-8 mt-6 shadow-xl rounded-[20px] ">
               <div className="flex-col items-start gap-3">
-                <h2 className="text-[#1C1C57] text-[24px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
+                <h2 className="text-[#1C1C57] text-[20px] md:text-[24px] lg:text-[24px] font-extrabold leading-[36px] md:leading-[36px] lg:leading-[36px]">
                 &apos;This is a game-changer!&apos;
                 </h2>
-                <p className="text-[#73739A] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4 tracking-[2]">
+                <p className="text-[#73739A] text-[12px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px] pt-4 tracking-[2]">
                   BizLaunchBase is my partner in this exhilarating global journey.
                   They break geographical shackles and unveil boundless potential.
                   If you&apos;re ready for global opportunities, BizLaunchBase is the
@@ -110,12 +110,12 @@ const Testimonials = () => {
 
         {/* CTA Buttons */}
         <div className="flex items-center justify-center flex-col md:flex-row gap-4 md:gap-6 lg:gap-8 mt-8 md:mt-20">
-          <Button className="w-full md:w-auto bg-[#6D72F6] rounded-xl py-4 md:py-6 text-lg md:text-[1rem]">
+        <Button className="bg-[#fff] text-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] hover:bg-blue-100 w-full ">
             Get Started
           </Button>
           <Button
             variant={"ghost"}
-            className="w-full md:w-auto rounded-xl py-4 md:py-6 text-lg md:text-[1rem] text-[#6D72F6] hover:border-blue-500 border"
+            className="text-[#000] border hover:border-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] w-full"
           >
             Book a demo
           </Button>
