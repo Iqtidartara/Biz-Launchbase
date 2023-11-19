@@ -22,12 +22,12 @@ const Testimonials = () => {
                   partners in making global dreams real.
                 </p>
                 <div className="flex gap-3 items-center md:-ml-4 lg:-ml-6 pt-4">
-                  <Image src="/image(1).png" alt="Aara Carter" width={80} height={80} />
+                  <Image src="/image(1).png" alt="Aara Carter" width={80} height={80}  className="w-[40px] md:w-[80px]" />
                   <div className="flex flex-col">
                     <h5 className="text-[#1C1C57] text-[12px] md:text-[18px] lg:text-[18px] font-extrabold leading-[24px] md:leading-[24px] lg:leading-[24px]">
                       Aara Carter
                     </h5>
-                    <p className="text-[#5F5F86] text-base md:text-md lg:text-lg font-medium leading-6 md:leading-7 lg:leading-1">
+                    <p className="text-[#5F5F86] text-[12px] md:text-[18px] font-[500]">
                       Business Strategist
                     </p>
                   </div>
@@ -48,12 +48,12 @@ const Testimonials = () => {
                   companions dedicated to success.
                 </p>
                 <div className="flex gap-3 items-center md:-ml-4 lg:-ml-6 pt-4">
-                  <Image src="/image(2).png" alt="Morgan Woods" width={80} height={80} />
+                  <Image src="/image(2).png" alt="Morgan Woods" width={80} height={80}  className="w-[40px] md:w-[80px]" />
                   <div className="flex flex-col">
-                    <h5 className="text-[#1C1C57] text-[18px] md:text-[18px] lg:text-[18px] font-extrabold leading-[24px] md:leading-[24px] lg:leading-[24px]">
+                    <h5 className="text-[#1C1C57] text-[12px] md:text-[18px] font-[800] leading-normal">
                       Morgan Woods
                     </h5>
-                    <p className="text-[#5F5F86] text-base md:text-md lg:text-lg font-medium leading-6 md:leading-7 lg:leading-1">
+                    <p className="text-[#5F5F86] text-[12px] md:text-[18px] font-[500]">
                       Digital Entrepreneur
                     </p>
                   </div>
@@ -66,8 +66,8 @@ const Testimonials = () => {
           <div className="w-full md:w-1/2 space-y-4 md:space-y-6 lg:space-y-8 md:px-4 lg:px-8 justify-center mt-6 ">
             <div className="inline-flex flex-col items-start gap-4 pb-4 md:w-full lg:w-[450px]">
               <div className="flex items-center gap-2">
-                <div className="w-6 h-0.5 bg-[#6D72F6]"></div>
-                <h3 className="text-[#6D72F6] font-extrabold text-[12px] md:text-[16px] leading-[18px] tracking-[0.96px] uppercase">
+                <span className="md:w-[2.5rem] md:h-[0.125rem] w-[1rem] h:[0.125rem] bg-[#6D72F6] min-h-[0.125rem]"></span>
+                <h3 className="text-[#6D72F6] font-[800] text-[.6rem] md:text-[0.9375rem] leading-[1.125rem] tracking-[0.06rem] uppercase ">
                   Testimonials
                 </h3>
               </div>
@@ -93,12 +93,12 @@ const Testimonials = () => {
                   go-to partner to make your aspirations a reality!
                 </p>
                 <div className="flex gap-3 items-center md:-ml-4 lg:-ml-6 pt-4">
-                  <Image src="/image(3).png" alt="David James" width={80} height={80} />
+                  <Image src="/image(3).png" alt="David James" width={80} height={80} className="w-[40px] md:w-[80px]" />
                   <div className="flex flex-col">
-                    <h5 className="text-[#1C1C57] text-[18px] md:text-[18px] lg:text-[18px] font-extrabold leading-[24px] md:leading-[24px] lg:leading-[24px]">
+        <h5 className="text-[#1C1C57] text-[12px] md:text-[18px] font-[800] leading-normal">
                       David James
                     </h5>
-                    <p className="text-[#5F5F86] text-[18px] md:text-[18px] lg:text-[18px] font-medium leading-[32px] md:leading-[32px] lg:leading-[32px]">
+                    <p className="text-[#5F5F86] text-[12px] md:text-[18px] font-[500]">
                       Business Owner
                     </p>
                   </div>
