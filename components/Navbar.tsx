@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="rounded-lg text-[#646464] bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
-                <Image src="/Logo.png" width={246} height={35} alt="logo" />
+                <Image src="/tara.png" width={246} height={35} alt="logo" className="cursor-pointer md:w-[257px] w-[157px]" />
                 <div className="mr-2">
                   <Popover.Button
                     className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover-bg-gray-100 hover-text-gray-500 focus-outline-none focus-ring-2 focus-ring-inset focus-ring-indigo-500"
@@ -70,7 +70,7 @@ const Navbar = () => {
                 </nav>
               </div>
               <div className="mt-6 flex flex-col items-center text-center gap-2">
-                <Link href="/" passHref>
+                <Link href="/" passHref className="w-full">
                   <Button
                     className="rounded-xl bg-[#4255BD] px-4 py-6 text-md font-medium text-white md-text-xl w-full border-2 focus-outline focus-ring-2 focus-ring-inset focus-ring-gray-500"
                   >
