@@ -49,7 +49,7 @@ function Footer() {
                         Company
                       </h2>
                       <div className="items-start flex w-[95px] max-w-full grow flex-col mt-6 self-start">
-                        <p className="justify-center text-gray-200 text-base font-medium self-start">
+                        <p className="justify-center text-gray-200 text-[14px] font-medium self-start">
                           <Link
                             href="https://privatily.com/about-us/"
                             target="_blank"
@@ -57,14 +57,14 @@ function Footer() {
                             About us
                           </Link>
                         </p>
-                        <p className="justify-center text-gray-200 text-base font-medium mt-9 self-start">
+                        <p className="justify-center text-gray-200 text-[14px]font-medium mt-9 self-start">
                           Contact us
                         </p>
-                        <p className="justify-center text-gray-200 text-base font-medium mt-9 self-start">
+                        <p className="justify-center text-gray-200 text-[14px] font-medium mt-9 self-start">
                           Pricing
                         </p>
-                        <p className="justify-center text-gray-200 text-base font-medium mt-9 self-start">
-                          Login
+                        <p className="justify-center text-gray-200 text-[14px] font-medium mt-9 self-start">
+                          LogIn
                         </p>
                       </div>
                     </div>
