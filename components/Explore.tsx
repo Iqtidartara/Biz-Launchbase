@@ -80,7 +80,7 @@ const Explore = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-2 py-8">
+      <div className="flex justify-center flex-col md:flex-row gap-2 py-8 px-2">
           <Button className="variantbutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
                   Get Started
                 </Button>
