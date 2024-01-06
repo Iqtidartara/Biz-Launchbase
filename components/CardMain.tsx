@@ -1,56 +1,42 @@
-
-
-
-
 import React from "react";
-import Image from "next/image";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
-function BizLaunchBase() {
+const CardMain = () => {
   return (
-    
-    <main className="w-full ">
-    <div className="max-w-7xl mx-auto px-4">
-    <div className="bg-[#6D72F6]  flex flex-col p-5 rounded-3xl">
-      <div className="self-center w-full max-w-7xl mt-2 max-md:max-w-full">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-            <div className="items-start flex flex-col my-auto max-md:max-w-full max-md:mt-10 md:ml-12">
-              <div className="items-start flex flex-col self-start">
-                <h1 className="text-white text-[1.4rem] text-center sm:text-start md:text-[2.47081rem] font-[800] leading-[140%]">
-                  Create your BizLaunchBase <br /> account today!
-                </h1>
-                <p className="text-violet-100 text-[.9rem] md:text-[1.11188rem] font-[500] leading-[179.879%] mt-6 max-md:max-w-full">
-                  Seize the Future: Supercharge Your Business Journey by Creating Your BizLaunchBase Account Today! Join a Thriving Community and Elevate Your Success to New Heights.
-                </p>
-              </div>
-              
-              
-              <div className="flex flex-col md:flex-row gap-2 py-8">
-          <Button className="whitebutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
-                  Get Started
-                </Button>
-                <Button className="bg-transparent py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1] border">
-                  Book a demo
-                </Button>
-          </div>
-              
-            </div>
-          </div>
-          <div className="flex flex-col  w-6/12  max-md:w-full ">
-            <Image
-              src="/maincard2.png"
-              alt="hyt"
-              layout="responsive"
-              width={476}
-              height={476}
-              className="aspect-[1.13] object-cover object-center w-full overflow-hidden grow max-md:max-w-full"
-            />
+    <div className="w-full bg-[#FFF] md:py-32 py-8">
+      <main className="mx-auto max-w-[75rem] bg-[#6D72F6] rounded-[1.46225rem] flex flex-col md:flex-row items-center justify-between">
+        {/* content div */}
+        <div className="w-full md:w-1/2 md:ml-20 ml-0 flex flex-col  px-4 py-12">
+          <h1 className="md:text-[2.47081rem] text-[2rem] font-[800] md:leading-[140%] leading-normal text-[#FFF]">
+            Create your BizLaunchBase account today!
+          </h1>
+          <p className="text-[.9rem] md:text-[1.11188rem] font-[500] leading-normal md:leading-[179.879%] text-[#ECECF6]">
+            Seize the Future: Supercharge Your Business Journey by Creating Your
+            BizLaunchBase Account Today! Join a Thriving Community and Elevate
+            Your Success to New Heights.
+          </p>
+
+          <div className="flex flex-col md:flex-row gap-2 py-8">
+            <Button className="whitebutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
+              Get Started
+            </Button>
+            <Button className="bg-transparent py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1] border">
+              Book a demo
+            </Button>
           </div>
         </div>
-      </div>
+        {/* image div */}
+        <div className="w-full md:w-1/2 flex items-end justify-end rounded-[1.46225rem]">
+          <Image
+          src="/maincard2.png"
+          alt="Image" 
+          width={476}
+          height={631.86}/>
+        </div>
+      </main>
     </div>
-    </div></main>
   );
-}
-export default BizLaunchBase;
+};
+
+export default CardMain;
