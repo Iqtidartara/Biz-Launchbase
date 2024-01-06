@@ -18,14 +18,14 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-white   relative z-50">
-      <Popover className="container mx-auto flex items-center justify-center px-4 py-5 h-28 w-full md:max-w-7xl">
+      <Popover className="container mx-auto flex items-center justify-center  md:px-0 px-4 py-6 h-28 w-full max-w-[80rem]">
         <div className="flex items-center">
           <Image
             src="/tara.png"
             width={257}
-            height={35}
+            height={65}
             alt="logo"
-            className="cursor-pointer md:w-[257px] w-[157px]"
+            className="cursor-pointer md:w-[257px] w-[157px] h-auto"
           />
         </div>
 
@@ -90,11 +90,9 @@ const Navbar = () => {
             ))}
           </div>
           <Link href="/" passHref>
-            <Button
-              className="text-[1.2rem] bg-[#4255BD] text-[#fff] px-4 py-6 text-md rounded-xl"
-            >
-              Get Started
-            </Button>
+          <Button className="variantbutton py-6 px-6 text-[1rem] font-[700] leading-[107%] tracking-[1]">
+                  Get Started
+                </Button>
           </Link>
         </div>
       </Popover>

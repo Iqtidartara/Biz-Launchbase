@@ -24,8 +24,8 @@ const serviceData = [
 const Services = () => {
   return (
     <main className="w-full">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-indigo-600 rounded-[20px] pt-8 pb-20 md:pb-96 flex items-center justify-center">
+      <div className="max-w-[80rem] mx-auto px-4 py-16 ">
+        <div className="bg-[#6D72F6] rounded-[1.25rem] pt-8 pb-20 md:pb-96 flex items-center justify-center">
           <h1 className="text-white text-center text-2xl md:text-4xl lg:text-5xl font-bold leading-[1] md:leading-[1] lg:leading-[1.5]">
             Get Your Company <br /> Registered In 3 Simple Steps
           </h1>

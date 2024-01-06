@@ -22,7 +22,7 @@ function Footer() {
                   <p className="text-white text-sm font-semibold opacity-70">
                     © {new Date().getFullYear()} - BizLaunchBase - 2023
                   </p>
-                  <p className="text-white text-lg leading-[132.222%] mt-4">
+                  <p className="text-white text-base leading-[132.222%] mt-4">
                     42 Hilton Ave. Austin, IL 32182, <br /> New York, USA
                   </p>
                   <div className="items-start flex w-[226px] max-w-full gap-3 mt-7 self-start">
@@ -33,7 +33,7 @@ function Footer() {
                       width={22} // Specify the width here
                       height={17}
                     />
-                    <p className="text-white text-lg leading-[124.444%]">
+                    <p className="text-white text-base leading-[124.444%]">
                       info@bizlaunchbase.com
                     </p>
                   </div>

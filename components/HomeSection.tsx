@@ -5,9 +5,11 @@ import Image from "next/image";
 const HomeSection = () => {
   return (
     <main className="w-full " style={{ margin: "20px 0" }}>
-      <div className="max-w-7xl mx-auto px-4">
-        <nav className="flex flex-col items-center md:flex-row">
-          <main className="w-full md:w-1/2 flex flex-col-reverse ">
+      <div className="max-w-[80rem] mx-auto px-4">
+        <div className="flex flex-col items-center md:flex-row">
+
+          {/* text div */}
+          <div className="w-full md:w-1/2 flex flex-col md:mt-[80px] mt-0">
             <div className="flex items-center md:justify-start justify-center gap-2">
               <span className="md:w-[2.5rem] md:h-[0.125rem] w-[1rem] h:[0.125rem] bg-[#6D72F6] min-h-[0.125rem]"></span>{" "}
               <h3 className="text-[#6D72F6] font-[800] text-[.6rem] md:text-[0.9375rem] leading-[1.125rem] tracking-[0.06rem] uppercase ">
@@ -15,7 +17,7 @@ const HomeSection = () => {
               </h3>
             </div>
             <div className="text-center md:text-left  ">
-              <h1 className="text-[rgb(28,28,87)] font-[800] text-[1.5rem] sm:text-[1rem] md:text-[2.25rem] leading-normal  md:pt-4 pt-1">
+              <h1 className="H1Textcolor font-[800] text-[1.5rem] sm:text-[1rem] md:text-[3.25rem] leading-normal  md:pt-4 pt-1">
                 Register Effortlessly on Stripe, PayPal, and Wise within{" "}
                 <span className="text-[#6D72F6]">7 Days!</span>{" "}
               </h1>
@@ -24,17 +26,14 @@ const HomeSection = () => {
                 Boost Your Business Expansion with Our Registration Process
                 Leading Payment Platforms in Just a Week
               </p>
-              <div className="flex flex-col md:flex-row gap-2 pt-8">
-                <Button className="bg-[#6D72F6] rounded-xl py-4 md:py-6 text-lg md:text-[1rem] text-[.9rem] border">
+              <div className="flex flex-col md:flex-row gap-2 py-8">
+          <Button className="variantbutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
                   Get Started
                 </Button>
-                <Button
-                  variant={"ghost"}
-                  className="rounded-xl py-4 md:py-6 text-[.9rem] md:text-[1rem] text-[#6D72F6] hover:border-blue-500 border"
-                >
+                <Button className="whitebutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
                   Book a demo
                 </Button>
-              </div>
+          </div>
               <div className="flex flex-col items-center md:flex-row gap-2 pt-8">
                 <Image src="/three.png" alt="der" width={108} height={47} />
                 <p className="text-[#494967]  text-[.7rem] md:text-[1.01394rem] font-[400] leading-[1.35194rem]">
@@ -44,7 +43,7 @@ const HomeSection = () => {
                 </p>
               </div>
             </div>
-          </main>
+          </div>
           <div className="w-full md:w-1/2 flex items-center justify-center">
             <Image
               src="/Hero Image2024.png"
@@ -54,7 +53,7 @@ const HomeSection = () => {
               className=""
             />
           </div>
-        </nav>
+        </div>
       </div>
     </main>
   );

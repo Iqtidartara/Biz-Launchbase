@@ -79,9 +79,23 @@
   background: var(--financetemplate-webflow-io-nero, #FFF);
   box-shadow: 0px 3.63636px 18.18182px 0px rgba(28, 28, 87, 0.15);
 }
-
+.H1Textcolor{
+  color: var(--financetemplate-webflow-io-valhalla, #1C1C57);
+}
 
 
 .g-number {
   background: linear-gradient(153deg, #B1B4FF 0%, #6D72F6 100%); 
+}
+.variantbutton{
+  color: var(--financetemplate-webflow-io-nero, #FFF);
+  border-radius: 0.75413rem;
+background: var(--financetemplate-webflow-io-cornflower-blue, #6D72F6);
+}
+.whitebutton{
+color: var(--financetemplate-webflow-io-cornflower-blue, #6D72F6);
+border-radius: 0.75413rem;
+border: 0.862px solid var(--financetemplate-webflow-io-whisper, #ECECF6);
+background: var(--financetemplate-webflow-io-nero, #FFF);
+box-shadow: 0px 2.586px 15.513px 0px rgba(74, 58, 255, 0.11);
 }
