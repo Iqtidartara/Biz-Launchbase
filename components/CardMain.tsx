@@ -26,24 +26,20 @@ function BizLaunchBase() {
               </div>
               
               
-              <div className="flex  flex-col md:flex-row 
-             items-start w-[348px] max-w-full justify-start gap-5 mt-9 self-start ">
-          <Button className="bg-[#fff] text-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] hover:bg-blue-100 w-full ">
-            Get Started
-          </Button>
-          <Button
-            variant={"ghost"}
-            className="text-[#fff] border hover:border-[#6D72F6] text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem] rounded-[0.75413rem] w-full"
-          >
-            Book a demo
-          </Button>
-        </div>
+              <div className="flex flex-col md:flex-row gap-2 py-8">
+          <Button className="whitebutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
+                  Get Started
+                </Button>
+                <Button className="bg-transparent py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1] border">
+                  Book a demo
+                </Button>
+          </div>
               
             </div>
           </div>
-          <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+          <div className="flex flex-col  w-6/12  max-md:w-full ">
             <Image
-              src="/maincard.png"
+              src="/maincard2.png"
               alt="hyt"
               layout="responsive"
               width={476}

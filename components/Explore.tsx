@@ -80,17 +80,14 @@ const Explore = () => {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-center flex-col md:flex-row gap-6 pb-12">
-        <Button className="text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem]  border rounded-[0.75413rem]  bg-[#6D72F6]   hover:border-blue-500">
-          Get Started
-        </Button>
-        <Button
-          variant={"ghost"}
-          className="text-[1rem] font-[800] leading-[107.732%] text-center px-[2.4rem] py-[1.4rem]  border rounded-[0.75413rem]  text-[#6D72F6] hover:border-blue-500 border"
-        >
-          Book a demo
-        </Button>
-      </div>
+      <div className="flex flex-col md:flex-row gap-2 py-8">
+          <Button className="variantbutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
+                  Get Started
+                </Button>
+                <Button className="whitebutton  py-7 px-7 text-[1rem] font-[700] leading-[107%] tracking-[1]">
+                  Book a demo
+                </Button>
+          </div>
     </main>
   );
 };
