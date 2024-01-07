@@ -1,11 +1,17 @@
+'use client'
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { motion} from 'framer-motion';
 
 const HomeSection = () => {
   return (
     <main className="w-full " style={{ margin: "20px 0" }}>
-      <div className="max-w-[80rem] mx-auto px-4">
+     <motion.div
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: .5 }}
+       className="max-w-[80rem] mx-auto px-4">
         <div className="flex flex-col items-center md:flex-row">
 
           {/* text div */}
@@ -54,7 +60,7 @@ const HomeSection = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </main>
   );
 };
