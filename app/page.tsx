@@ -9,6 +9,8 @@ import SocialProof from "@/components/SocialProof";
 import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 
+
+
 export default function Home() {
   return (
   <main >
